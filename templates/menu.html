@@ -1,0 +1,39 @@
+<ion-side-menus enable-menu-with-back-views="false" style="">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" id="side-menu21">
+    <ion-header-bar class="bar-stable">
+      <div class="title">Menu</div>
+    </ion-header-bar>
+    <ion-content padding="false" class="side-menu-left has-header ">
+      <ion-list id="menu-list1">
+        <ion-item class="item-icon-right" id="menu-list-item1" ui-sref="menu.home()" menu-close="" style="">Home
+          <i class="icon ion-android-home"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="menu-list-item2" ui-sref="menu.cart()" menu-close="" style="">Cart
+          <i class="icon ion-card"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="menu-list-item3" ui-sref="menu.cloud()" menu-close="" style="">Cloud
+          <i class="icon ion-android-cloud"></i>
+        </ion-item>
+      </ion-list>
+      <ion-slides disable-side-menu-drag="" options="{'loop': true}" slider="slider1" delegate-handle="slider1" id="menu-slider1" style="width:100%;height:200px;">
+        <ion-slide-page id="menu-slide24" style="background:url(&quot;img/avfsZwJT9WGsBj982ul1_kitten1.jpg&quot;) no-repeat center;background-size:cover;"></ion-slide-page>
+        <ion-slide-page id="menu-slide26" style="background:url(&quot;img/WE6rB9dZRTiIWQlP5qsA_kitten3.jpg&quot;) no-repeat center;background-size:cover;"></ion-slide-page>
+        <ion-slide-page id="menu-slide25" style="background:url(&quot;img/gHd5vedGQJu4s4qsPQvr_kitten2.jpg&quot;) no-repeat center;background-size:cover;"></ion-slide-page>
+      </ion-slides>
+      <div class="spacer" style="width: 256px; height: 28px;"></div>
+      <div id="menu-container1" class="paragraphe">
+        <p style="text-align=center">
+          Placeholder Images for every case. Webdesign or Print. Just put a custom url in your html and you receive a proper placeholder picture.</p>
+      </div>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
